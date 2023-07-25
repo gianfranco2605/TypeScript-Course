@@ -1,3 +1,4 @@
+// TSC + FILE NAME TO COMPILE TO JS = tsc functions.ts
 function square(num: number) {
     return num * num
 }
