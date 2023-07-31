@@ -1,0 +1,5 @@
+
+tsc --init = to create tsconfig.json
+tsc -w <file.ts> = to watch live changes
+tsc -w = to watch multiple files live changes
+tsc =  on folder to compile multiple files 

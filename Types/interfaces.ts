@@ -113,3 +113,15 @@ const gian: Engineer = {
     level: "Junior",
     languages: ["html", "css", "javascript"]
 }
+
+// Interface vs Types Aliaces
+type Color = "red" | "blue"  // i can't do it in interfaces
+
+// EXTENDS IN TYPES 
+type Name = {
+    name: string
+}
+
+type LastName = Name & {
+    lastName: string
+}
