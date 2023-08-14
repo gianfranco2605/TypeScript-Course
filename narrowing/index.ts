@@ -1,4 +1,4 @@
-// naworring = typeof
+// narrowing = typeof
 
 function triple(value: number | string) {
     if(typeof value === "string"){
@@ -9,7 +9,7 @@ function triple(value: number | string) {
     }
 }
 
-// Truthiness another naworring
+// Truthiness another narrowing
 
 const el = document.getElementById('#id');
 // Truty
@@ -46,7 +46,7 @@ function someDemo(x: string | number, y: string | boolean) {
 // console error 
 someDemo(3, "3")
 
-// "in" operator naworrring
+// "in" operator narrowing
 interface Movie {
     title: string,
     duration: number
